@@ -7,6 +7,7 @@ permalink: /:title.html
 
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 
 exclude:
   - Gemfile
