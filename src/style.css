@@ -3,6 +3,30 @@
 @tailwind components;
 
 @layer components {
+  #post-list {
+    @apply text-xl font-normal text-black max-w-screen-md p-3 mx-auto;
+  }
+
+  #post-list article {
+    @apply p-4;
+  }
+
+  #post-list article time {
+    @apply text-base text-gray-700;
+  }
+
+  #post-list article h2 {
+    @apply text-2xl text-black font-bold;
+  }
+
+  #post-list article h2 a {
+    box-shadow: inset 0 -2px 0 #e7c961;
+  }
+
+  #post-list article h2 a:hover {
+    box-shadow:inset 0 -1.1em 0 rgba(231, 201, 97, 0.4);
+  }
+
   #post-comment {
     @apply text-xl font-normal text-black max-w-screen-md p-3 mx-auto;
   }
