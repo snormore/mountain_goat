@@ -1,9 +1,10 @@
 title: Ruby Yagi 🐐
 description: Ruby, Rails, Web dev articles
 author: Axel Kee
+url: https://rubyyagi.com
 
 highlighter: rouge
-permalink: /:title.html
+permalink: /:title/
 
 plugins:
   - jekyll-feed

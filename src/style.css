@@ -3,6 +3,10 @@
 @tailwind components;
 
 @layer components {
+  #post-comment {
+    @apply text-xl font-normal text-black max-w-screen-md p-3 mx-auto;
+  }
+  
   #post-content {
     @apply text-xl font-normal text-black max-w-screen-md p-3 mx-auto;
   }
