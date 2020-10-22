@@ -1,5 +1,6 @@
-title: Tailwind Jekyll Starter Kit
-description: A starter kit for using Tailwind with Jekyll
+title: Ruby Yagi 🐐
+description: Ruby, Rails, Web dev articles
+author: Axel Kee
 
 exclude:
   - Gemfile

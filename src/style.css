@@ -1,5 +1,48 @@
 /* purgecss start ignore */
 @tailwind base;
 @tailwind components;
+
+@layer components {
+  #post-content {
+    @apply text-xl font-normal text-black max-w-screen-md p-3 mx-auto;
+  }
+
+  #post-content h1 {
+    @apply text-5xl font-bold leading-snug mt-8 mb-2;
+  }
+
+  #post-content h1.title {
+    @apply text-center mb-4 text-orange-600 border-orange-500 border-b-2;
+  }
+
+  #post-content h2 {
+    @apply text-4xl font-bold leading-snug mt-8 mb-2;
+  }
+
+  #post-content h3 {
+    @apply text-3xl font-bold leading-snug mt-8 mb-2;
+  }
+
+  #post-content p{
+    @apply leading-normal;
+  }
+
+  #post-content a {
+    @apply text-orange-500 underline;
+  }
+
+  #post-content a:hover {
+    @apply text-orange-300;
+  }
+
+  #post-content img {
+    @apply mx-auto my-8 max-w-full;
+  }
+
+  #post-content div.highlight {
+    @apply mx-auto my-8 max-w-full overflow-x-scroll;
+  }
+}
+
 /* purgecss end ignore */
 @tailwind utilities;
