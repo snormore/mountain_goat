@@ -2,6 +2,12 @@ title: Ruby Yagi 🐐
 description: Ruby, Rails, Web dev articles
 author: Axel Kee
 
+highlighter: rouge
+permalink: /:title.html
+
+plugins:
+  - jekyll-feed
+
 exclude:
   - Gemfile
   - Gemfile.lock
