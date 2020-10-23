@@ -28,27 +28,53 @@
   }
 
   #post-comment {
-    @apply text-xl font-normal text-black max-w-screen-md p-3 mx-auto;
+    @apply text-lg font-normal text-black max-w-screen-md p-3 mx-auto;
   }
   
   #post-content {
-    @apply text-xl font-normal text-black max-w-screen-md p-3 mx-auto;
+    @apply text-lg font-normal text-black max-w-screen-md p-3 mx-auto;
   }
 
   #post-content h1 {
-    @apply text-5xl font-bold leading-snug mt-8 mb-2;
+    @apply text-2xl font-bold leading-snug mt-8 mb-2;
   }
 
   #post-content h1.title {
-    @apply text-center mb-4 text-gray-800 text-4xl font-bold px-4 py-2 transform -rotate-2 inline-block;
+    @apply text-center mb-4 text-gray-800 text-2xl font-bold px-4 py-2 transform -rotate-2 inline-block;
   }
 
   #post-content h2 {
-    @apply text-4xl font-bold leading-snug mt-8 mb-2;
+    @apply text-xl font-bold leading-snug mt-8 mb-2;
   }
 
   #post-content h3 {
-    @apply text-3xl font-bold leading-snug mt-8 mb-2;
+    @apply text-xl font-bold leading-snug mt-8 mb-2;
+  }
+
+  @screen md {
+    #post-comment {
+      @apply text-xl;
+    }
+
+    #post-content {
+      @apply text-xl;
+    }
+
+    #post-content h1 {
+      @apply text-4xl;
+    }
+
+    #post-content h1.title {
+      @apply text-4xl;
+    }
+
+    #post-content h2 {
+      @apply text-3xl;
+    }
+
+    #post-content h3 {
+      @apply text-2xl;
+    }
   }
 
   #post-content p{

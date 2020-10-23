@@ -4,21 +4,12 @@
 {% include header.html %}
 
 <div id="post-list">
-  {% for post in site.posts %}
+  {% for post in site.posts limit:10 %}
   <article class="">
     <time>{{ post.date | date: "%-d %B %Y" }}</time>
     <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
   </article>
   {% endfor %}
-
-  <article class="">
-    <time>18 Oct 2020</time>
-    <h2><a href="/how-to-integrate-html-bootstrap-theme-into-rails-6/">How to integrate HTML / Bootstrap theme into Rails 6</a></h2>
-  </article>
-  <article class="">
-    <time>18 Oct 2020</time>
-    <h2><a href="/how-to-integrate-html-bootstrap-theme-into-rails-6/">How to integrate HTML / Bootstrap theme into Rails 6</a></h2>
-  </article>
 </div>
 
 {{ content }}
