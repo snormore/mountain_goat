@@ -1,3 +1,18 @@
 ---
-layout: list
+layout: default
 ---
+
+<div id="post-list">
+  <script async data-uid="d862c2871b" src="https://rubyyagi.ck.page/d862c2871b/index.js"></script>
+  <br><br>
+  {% for post in site.posts limit:5 %}
+  <article>
+    <time>{{ post.date | date: "%-d %B %Y" }}</time>
+    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+  </article>
+  {% endfor %}
+  <br><br>
+  <article>
+    <h2><a href="{{ site.url }}/archive/">View all articles →</a></h2>
+  </article>
+</div>

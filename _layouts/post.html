@@ -4,12 +4,14 @@
 {% include header.html %}
 
 <div id="post-content">
+  <div class="text-center">
   <div class="transform rotate-2 w-auto inline-block bg-yellow-400 shadow rounded-sm my-4">
      <h1 class="title">{{ page.title }}</h1>
   </div>
- 
+  </div>
+  <div class="clear-both"></div>
   <span class="font-light text-lg float-right">by <span class="font-semibold">{{ site.author }}</span></span>
-  <span class="font-light text-gray-700 text-lg float-left">18 Oct 2020</span>
+  <span class="font-light text-gray-700 text-lg float-left">{{ page.date | date: "%-d %B %Y" }}</span>
   <div class="mb-16 clear-both"></div>
   {{ content }}
 </div>
