@@ -1,0 +1,9 @@
+name: mountain-goat
+static_sites:
+- name: site
+  github:
+    repo: snormore/mountain_goat
+    branch: master
+    deploy_on_push: true
+  dockerfile_path: Dockerfile.build
+  output_dir: /app/_site
