@@ -6,11 +6,8 @@ url: https://rubyyagi.com
 highlighter: rouge
 permalink: /:title/
 
-paginate: 10
-
 plugins:
   - jekyll-feed
-  - jekyll-paginate
   - jekyll-sitemap
 
 exclude:
